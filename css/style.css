@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Poppins:wght@100&display=swap');
+*{
+    margin:0;
+    padding:0;
+    font-family: 'Poppins', sans-serif;
+}
+.nav{
+    width:100%;
+    height:100px;
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:25px;
+
+}
+h1{
+    font-size: 36px;
+    line-height: 100%;
+    font-weight:600;
+    color: rgb(12, 11, 11);
+}
+h3{
+    font-size: 24px;
+    line-height: 100%;
+    font-weight:500;
+    margin-top: 9px;
+    color: rgb(12, 11, 11);
+}
+p{
+    font-size: 12px;
+    line-height: 130%;
+    font-weight: 500;
+    margin-top: 15px;
+    color: rgb(12, 11, 11);
+   
+}
+
+.main{
+    width:100%;
+    
+    height:calc(100vh - 200px);
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.footer{
+    width:100%;
+    height:100px;
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:25px;
+}
+.left{
+    width:100px;
+
+height:100%;
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+.right{
+    width:100px;
+   
+    height:100%;
+    display:flex;
+    justify-content: center;
+     align-items: center; 
+flex-direction: column;
+gap:20px;
+}
+.center{
+   
+    height:200px;
+    width:585px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    
+   
+}
+.active{
+    background-color: black !important;
+
+}
+.inactive{
+    width:24px;
+    height: 24px;
+    border-radius: 50%;
+    border:3px solid black;
+    background: transparent ;
+}
+.profile{
+    width:200px;
+    height: 200px;
+    border-radius:50%;
+    
+    background-image: url("../image/manp.jpg");
+    background-size: cover;
+    background-position: center;
+   
+}
+.content{
+    height:100%;
+    width:300px;
+    
+}
